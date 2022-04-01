@@ -35,7 +35,7 @@
 #'
 #'@export
 #'
-EvaluatePairsFromXCMSSet <- function(xg=NULL, tp=NULL, gr=NULL, drt=1, dmz=0.025, mz_iso=1.00335, n=6, method=c("APCI","ESI")[1], specific_row=NULL, testing=FALSE, silent=FALSE) {
+EvaluatePairsFromXCMSSet <- function(xg=NULL, tp=NULL, gr=NULL, drt=1, dmz=0.025, mz_iso=1.0065, n=6, method=c("APCI","ESI")[1], specific_row=NULL, testing=FALSE, silent=FALSE) {
 
   # check if grouped xcmsSet provided and extract data from object
   # [20190618 JL needed to remove class information regarding xcms objects for CRAN]
