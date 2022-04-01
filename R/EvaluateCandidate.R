@@ -29,7 +29,7 @@
 #'
 #'@keywords internal
 #'
-EvaluateCandidate <- function(x=NULL, tp=NULL, gr=NULL, dat=NULL, mz_iso=1.003355, dmz=0.005, drt=0.5, dEcut=0, Pcut=0.01, Icut=1000, flux_lib=NULL, flux_lib_masses=NULL, flux_lib_rt_dev=5, method=c("APCI","ESI")[1]) {
+EvaluateCandidate <- function(x=NULL, tp=NULL, gr=NULL, dat=NULL, mz_iso=1.0065, dmz=0.005, drt=0.5, dEcut=0, Pcut=0.01, Icut=1000, flux_lib=NULL, flux_lib_masses=NULL, flux_lib_rt_dev=5, method=c("APCI","ESI")[1]) {
   # poptential parameters
   # assign error message if P_raw exceeds this value
 
